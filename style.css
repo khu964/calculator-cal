@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(70, 70, 107);
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  h1{
+    text-align: center;
+  }
+
+  .main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .input-cal input {
+    padding: 15px 20px;
+    background-color: rgb(36, 36, 74);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 29px;
+    font-weight: 600;
+    text-align: right;
+  }
+
+  .btn-cal {
+    width: 390px;
+    background-color: rgb(59, 59, 105);
+    border-radius: 12px;
+    padding-top: 30px;
+  }
+
+  .btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+    padding: 10px;
+  }
+
+  .btn button {
+    height: 45px;
+    width: 77px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: #282c34;
+    color: white;
+    cursor: pointer;
+  }
+
+  .btn-re {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .btn-re button {
+    padding: 16px 64px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-size: larger;
+    cursor: pointer;
+  }
+
+  .btn-re button:nth-child(1) {
+    background-color: blueviolet;
+  }
+
+  .btn-re button:nth-child(2) {
+    background-color: red;
+  }
